@@ -1,0 +1,9 @@
+Sublime-Style-Column-Selection@1.7.2
+cucumber@0.5.0
+git-blame@0.4.11
+language-haml@0.24.0
+linter@1.11.16
+linter-rubocop@0.4.7
+sort-lines@0.14.0
+
+

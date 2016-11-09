@@ -1,0 +1,22 @@
+# Dotfiles
+
+## Install
+
+Save dotfiles to `~/code` then:
+
+```
+ln -s ~/code/dotfiles/.bash_profile ~
+ln -s ~/code/dotfiles/.gitconfig ~
+```
+
+## Atom
+
+Save existing packages:
+```
+apm list --installed --bare > atom-package-list.txt
+```
+
+Install existing packages:
+```
+apm install --packages-file atom-package-list.txt
+```
