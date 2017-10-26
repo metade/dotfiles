@@ -12,3 +12,10 @@ export EDITOR=atom
 server() {
   open "http://localhost:${1}" && python -m SimpleHTTPServer $1
 }
+
+export PATH="$PATH:`yarn global bin`"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+eval "$(pyenv virtualenv-init -)"
