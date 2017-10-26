@@ -3,6 +3,7 @@
 	br = branch
 	ci = commit
 	st = status
+	cleanup = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 [user]
 	name = Patrick Sinclair
 	email = metade@gmail.com
