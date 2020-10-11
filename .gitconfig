@@ -4,10 +4,11 @@
 	ci = commit
 	st = status
 	cleanup = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+	count = "!git rev-list --count HEAD ^master"
 [user]
 	name = Patrick Sinclair
 	email = metade@gmail.com
 [push]
 	default = simple
 [core]
-	editor = atom --wait
+	editor = code --wait
