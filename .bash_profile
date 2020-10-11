@@ -7,7 +7,7 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 alias b="bundle exec "
 
-export EDITOR=atom
+export EDITOR=code
 
 server() {
   open "http://localhost:${1}" && python -m SimpleHTTPServer $1
